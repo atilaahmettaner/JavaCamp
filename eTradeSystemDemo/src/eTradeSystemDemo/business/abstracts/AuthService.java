@@ -10,4 +10,5 @@ public interface AuthService {
     boolean logout(String mail);
     void getAll (int id);
     List<User> getAll();
+    
 }
